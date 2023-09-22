@@ -24,10 +24,20 @@ body > header {
 	overflow: hidden;
 }
 
+/* Navigation Layout */
 body > nav {
-	width: 20%;
-	float: left;
-	margin: 0 0 0 1.5%;
+	/* display: sticky;
+	top: 0px; */
+}
+
+body > nav > ul {
+	display: flex;
+	justify-content: center;
+}
+
+body > nav > ul > li {
+	margin: 1em 5em;
+	padding: 1em;
 }
 
 body > article#about_tss {
