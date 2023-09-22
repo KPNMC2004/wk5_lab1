@@ -18,10 +18,15 @@ body {
 	min-width: 640px;
 }
 
+/* Header Layout */
 body > header {
 	margin: 0;
 	width: 100%;
 	overflow: hidden;
+}
+
+body > header > img {
+	width: 100%;
 }
 
 /* Navigation Layout */
